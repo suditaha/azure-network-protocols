@@ -52,23 +52,23 @@ Created a Windows 10 Virtual Machine (VM) (windows-vm). While creating the VM, I
 <img src="https://i.imgur.com/o285Ks5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-While creating the VM, I also allowed it to create a new Virtual Network (VNET) and Subnet.
+While creating the VM, I also allowed it to create a new Virtual Network (VNET) and Subnet and picked it as my virtual network.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZrGmqy3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Created a Linux (Ubuntu) VM. While creating the VM, I selected the previously created Resource Group.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NqmNkyA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+While creating the Linux VM, I also selected the previously created Virtual Network (VNET), as my Virtual Network.
 </p>
 <br />
 
