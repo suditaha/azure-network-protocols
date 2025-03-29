@@ -148,6 +148,8 @@ Back in the Windows 10 VM, I observed the ICMP traffic in WireShark and the comm
 </p>
 <br />
 
+## 4 - Observing SSH Traffic
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
