@@ -72,13 +72,55 @@ While creating the Linux VM, I also selected the previously created Virtual Netw
 </p>
 <br />
 
-## 2 - Observe ICMP Traffic
+## 2 - Observing ICMP Traffic
 
 <p>
 <img src="https://i.imgur.com/eyOWagQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I opened the Windows 10 Virtual Machine that I created (windows-vm) and installed Wireshark.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/lhaZhEz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+I opened Wireshark and started packet capture. Within Wireshark, I filtered for ICMP traffic only. I then retrieved the private IP address of the Ubuntu VM (linux-vm) and attempted to ping it from within the Windows 10 VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ChmFEes.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After pinging the linux-vm's private IP, I then observed the ping requests and replies within WireShark. The ping request was successful as all packets were recieved by the linux-vm.
+</p>
+<br />
+
+## 3 - Configuring a Firewall [Network Security Group]
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
