@@ -112,31 +112,31 @@ Initiated a perpetual/non-stop ping from the Windows 10 VM to the Ubuntu VM.
 <img src="https://i.imgur.com/iOuiFRS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Opened the Network Security Group that the Ubuntu VM is using and disabled incoming (inbound) ICMP traffic
+Opened the Network Security Group that the Ubuntu VM is using and disabled incoming (inbound) ICMP traffic by creating a new security rule.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hqTmTal.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in the Windows 10 VM, I observed the ICMP traffic in WireShark. Notice how the requests are starting to time out (no response found).
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tDQxWuo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I also observed the ICMP traffic in the command line's ping activity. Notice how the requests are starting to time out here too (Request timed out).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/JseDbYv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Re-enabled ICMP traffic for my Ubuntu VM via the Network Security Group settings by deleting the security rule I previously created.
 </p>
 <br />
 
