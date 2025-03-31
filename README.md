@@ -144,25 +144,25 @@ Re-enabled ICMP traffic for my Ubuntu VM via the Network Security Group settings
 <img src="https://i.imgur.com/ixsxdV3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Back in the Windows 10 VM, I observed the ICMP traffic in WireShark and the command line Ping activity (it started working again ✅)
+Back in the Windows 10 VM, I observed the ICMP traffic in WireShark and the command line Ping activity (it started working again ✅).
 </p>
 <br />
 
 ## 4 - Observing SSH Traffic
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/N8w9j7G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Wireshark, I started a packet capture up and filtered for SSH traffic only. From the Windows 10 VM, I connected via SSH to the Ubuntu Virtual Machine (with its private IP address, 10.1.0.5). To do this, I typed : ssh suditaha@10.1.0.5 in PowerShell.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6mManfu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I typed commands such as (id, hostname, etc) into the linux SSH connection and observed SSH traffic spam happening live in WireShark everytime I typed a keystroke or a command.
 </p>
 <br />
 
