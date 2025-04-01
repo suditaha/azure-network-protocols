@@ -166,11 +166,13 @@ I typed commands such as (id, hostname, etc) into the linux SSH connection and o
 </p>
 <br />
 
+## 5 - Observing DHCP Traffic
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back in Wireshark, I filtered for DHCP traffic only. From my Windows 10 VM, I attempted to issue my VM a new IP address by making a new notepad file called "dhcp.bat" with the text "ipconfig /release" & "ipconfig /renew" written in it in order to force the Windows 10 VM to release its current IP address and request a new one from the DHCP server.
 </p>
 <br />
 
