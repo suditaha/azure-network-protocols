@@ -197,7 +197,7 @@ Back in Wireshark, I filtered for DNS traffic only. From my Windows 10 VM within
 ## 7 - Observing RDP Traffic
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bN6LxN5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Back in Wireshark, I filtered for RDP traffic only (tcp.port == 3389). I then observed the immediate non-stop spam of traffic that happened.
